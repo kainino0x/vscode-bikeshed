@@ -1,0 +1,27 @@
+{
+    "name": "bikeshed",
+    "publisher": "kainino",
+    "displayName": "Bikeshed",
+    "description": "Syntax for Bikeshed spec-generator language",
+    "version": "0.0.1",
+    "repository": "https://github.com/kainino0x/vscode-bikeshed",
+    "engines": {
+        "vscode": "^1.40.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "bikeshed",
+            "aliases": ["Bikeshed", "bikeshed"],
+            "extensions": [".bs"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "bikeshed",
+            "scopeName": "source.csswg",
+            "path": "./syntaxes/csswg.tmLanguage"
+        }]
+    }
+}
