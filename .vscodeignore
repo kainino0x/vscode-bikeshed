@@ -1,4 +1,6 @@
-.vscode/**
-.vscode-test/**
-.gitignore
-vsc-extension-quickstart.md
+# Ignore everything except a few files
+*
+**/*
+!LICENSE
+!language-configuration.json
+!bikeshed/Bikeshed.tmLanguage
